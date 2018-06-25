@@ -1,0 +1,16 @@
+<!--pages/number/number.wxml-->
+<view>
+  <text>{{msg}}</text>
+  <block wx:for="{{arr}}" wx:key="{{item.id}}">
+    <view class="{{item.id}}">这是遍历出来的{{item.id}}</view>
+  </block>
+</view>
+
+<template name="msg">
+  <view>姓名:{{name}}</view>
+  <view>年龄:{{age}}</view>
+  <view>性别:{{sex}}</view>
+</template>
+<template is="msg" data="{{...person}}"/>
+
+

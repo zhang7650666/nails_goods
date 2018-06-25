@@ -1,0 +1,6 @@
+<!--pages/about/about.wxml-->
+<view>
+  <text>{{msg}}</text>
+  <button bindtap="change">改变了</button>
+</view>
+

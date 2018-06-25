@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/number/number",
+    "pages/login/login",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color":"black",
+    "selectedColor":"red",
+    "backgroundColor":"#ccc",
+    "borderStyle":"black",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text": "首页",
+        "iconPath":"images/user_icon.png",
+        "selectedIconPath":"images/user_icon_HL.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "登录页",
+        "iconPath": "images/skill_icon.png",
+        "selectedIconPath": "images/skill_icon_HL.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "about",
+        "iconPath": "images/skill_icon.png",
+        "selectedIconPath": "images/skill_icon_HL.png"
+      }
+    ]
+  }
+}

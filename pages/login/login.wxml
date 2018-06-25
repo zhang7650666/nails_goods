@@ -1,0 +1,5 @@
+<!--pages/login/login.wxml-->
+<view>
+  <text>我是登录页面</text>
+  <button bindtap="goTabBar">跳转到有tabBar的页面</button>
+</view>
