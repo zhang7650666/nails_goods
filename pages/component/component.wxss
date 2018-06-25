@@ -1,0 +1,44 @@
+/* pages/component/component.wxss */
+.horizontal scroll-view{
+  height:300rpx;
+   margin-bottom:100rpx;
+}
+.row scroll-view{
+  height:200rpx;
+  white-space:nowrap;
+ 
+}
+.row view{
+  height:200rpx;
+  width:100%;
+  display:inline-block;
+}
+#green{
+  height:200rpx;
+  background:green;
+}
+#red{
+   height:200rpx;
+  background:red;
+}
+#yellow{
+   height:200rpx;
+  background:yellow;
+}
+#blue{
+   height:200rpx;
+  background:blue;
+}
+
+/* // swiper */
+
+swiper-item image{
+  display:block;
+  width:100%;
+}
+.button-hover{
+  background-color: red;
+}
+/* button{
+  width:300rpx;
+} */

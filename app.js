@@ -32,8 +32,8 @@ App({
         }
       }
     })
-    console.log("监听小程序的初始化")
-    console.log(resa)
+    // console.log("监听小程序的初始化")
+    // console.log(resa)
   },
   globalData: {
     userInfo: null,

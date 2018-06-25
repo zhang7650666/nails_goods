@@ -1,0 +1,73 @@
+<!--pages/component/component.wxml-->
+<!-- <view>
+  <text>组件页面</text>
+   <view class="horizontal">
+     <scroll-view scroll-y  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+      <view id="green" class="scroll-view-item bc_green"></view>
+      <view id="red"  class="scroll-view-item bc_red"></view>
+      <view id="yellow" class="scroll-view-item bc_yellow"></view>
+      <view id="blue" class="scroll-view-item bc_blue"></view>
+    </scroll-view>
+  </view> 
+ <view class="row">
+     <scroll-view scroll-x  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+      <view id="green" class="scroll-view-item bc_green"></view>
+      <view id="red"  class="scroll-view-item bc_red"></view>
+      <view id="yellow" class="scroll-view-item bc_yellow"></view>
+      <view id="blue" class="scroll-view-item bc_blue"></view>
+    </scroll-view>
+  </view>
+</view> -->
+
+<!-- <view>
+    <view>轮播图组件</view>
+    <swiper indicator-dots="true" indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="#000000" autoplay="true" interval="3000" duration="500" circular="true">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150"/>
+          </swiper-item>
+        </block>
+    </swiper>
+</view> -->
+
+<!-- <view>
+  <view>拖拽  覆盖物</view>
+    <movable-area style="height: 200px; width: 200px; background: red;">
+      <movable-view style="height: 50px; width: 50px; background: blue;" x="{{x}}" y="{{y}}" direction="all">
+      <cover-view class="play" bindtap="play">
+        <cover-image class="img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+      </cover-view>
+      </movable-view>
+  </movable-area>
+</view> -->
+<!-- <view>
+    <view>icon组件</view>
+    <icon type="success" size="30" color="blue"></icon>
+</view> -->
+
+
+<!-- <view>
+    <view>icon组件</view>
+   <block wx:for="{{iconColor}}">
+    <icon type="success" size="40" color="{{item}}"/>
+  </block>
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}" color="pink"/>
+  </block>
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40" color="pink"/>
+  </block>
+</view>
+
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text> -->
+
+<!-- <view>
+    <view>进度条</view>
+    <progress percent="80" show-info stroke-width="10" color="red" activeColor="blue" backgroundColor="pink" active="true" active-mode></progress>
+</view>  -->
+<view>
+    <view>button</view>
+    <button size="default" type="primary" loading="true" hover-class="button-hover">按钮</button>
+</view> 
+
+
